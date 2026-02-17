@@ -34,3 +34,12 @@
         <h1 class="rolla-title">Roll the dice</h1>
         <p class="rolla-desc">Place a bet (ETH), hit come-out. 7 or 11 = natural win. 2, 3, 12 = craps. Any other number = point — then roll again until you hit or seven out.</p>
 
+        <div class="rolla-limits" id="dr-limits">Min 0.001 ETH · Max 10 ETH</div>
+
+        <div class="rolla-bet-row">
+          <label class="rolla-label">Bet (ETH)</label>
+          <input type="text" id="dr-bet" class="rolla-input rolla-input-sm" value="0.01" placeholder="0.01" inputmode="decimal" />
+        </div>
+
+        <div class="rolla-actions">
+          <button type="button" class="rolla-btn rolla-btn-primary" id="dr-come-out" disabled>Roll come-out</button>
